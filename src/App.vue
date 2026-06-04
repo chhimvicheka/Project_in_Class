@@ -1,12 +1,12 @@
+
+
 <script setup></script>
 
 <template>
-  <h1>You did it!</h1>
-  <h1> Hello World</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <RouterView />
+  <!-- <RouterView></RouterView> -->
+  <!-- <router-view /> -->
+  <!-- <router-view></router-view> -->
 </template>
 
 <style scoped></style>
