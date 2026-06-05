@@ -1,12 +1,15 @@
 
 
+
+
+
 <script setup></script>
 
 <template>
-  <RouterView />
-  <!-- <RouterView></RouterView> -->
-  <!-- <router-view /> -->
-  <!-- <router-view></router-view> -->
+  <RouterView name="navbar" />
+  <RouterView name="sidebar" />
+  <RouterView name="default" />
+  <RouterView name="footer" />
 </template>
 
 <style scoped></style>
